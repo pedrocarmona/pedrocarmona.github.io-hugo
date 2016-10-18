@@ -1,3 +1,56 @@
-languageCode = "en-us"
-baseurl = "http://replace-this-with-your-hugo-site.com/"
-title = "My New Hugo Site"
+## Basic Configuration
+
+baseurl = "https://pedrocarmona.github.io/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+title = "Pedro Carmona"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "pedro-carmona"
+googleAnalytics = "UA-85850976-1"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Pedro Carmona"
+intro = "Software Engineer"
+description = "Now Junior Software Engineer @Bidmath.<br><br>Previously:<br>Programmer Analyst I @FIS (2014-2015)<br>Web developer @Whitesmith (2013)"
+authorImage = "picture.jpeg"
+dateFormat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Pedro Carmona Personal Website"
+keywords = "blog,profile,developer,ruby,software"
+
+## Social Accounts
+[params.social]
+github = "pedrocarmona"
+linkedIn = "pedrosousacarmona"
+twitter = "pcarmona1990"
+
+## Extras
+[params.extra]
+copyright = "© 2016. Pedro Carmona." 
+poweredBy = true
+hightlightJS = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
