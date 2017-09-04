@@ -22,7 +22,7 @@ enableRobotsTXT = true
 [params]
 author = "Pedro Carmona"
 intro = "Software Engineer"
-description = "Software Engineer<br>Working at @Bidmath<br><br>Previously:<br>Programmer Analyst I @FIS (2014-2015)<br>Web developer @Whitesmith (2013)"
+description = "Working at @Bidmath<br><br>Previously:<br>Programmer Analyst I @FIS (2014-2015)<br>Web developer @Whitesmith (2013)"
 authorImage = "picture.jpeg"
 dateFormat = "Jan 2, 2006"
 
@@ -54,3 +54,8 @@ hightlightJS = true
     identifier = "about"
     weight = 200
     url = "/about/"
+[[menu.main]]
+    name = "CV"
+    identifier = "cv"
+    weight = 300
+    url = "/files/pedro-carmona-cv.pdf"
