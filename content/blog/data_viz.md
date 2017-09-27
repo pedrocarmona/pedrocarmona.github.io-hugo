@@ -37,6 +37,7 @@ Query caching allows reporting tools to improve the usability of their service.
 
 ## Team Share
 Using web browser reporting tools may offer the ability to easily share the result of a given query, or share a dashboard with specific filters.
+
 * In [Tableau](www.tableau.com), with tableau online isnt possible to save the current state of the filter, because the url isnt mutated with the filters. Also users cannot simple run SQL queries directly.
 * [Superset](https://github.com/apache/incubator-superset)
 * [Blazer](https://github.com/ankane/blazer) users can share dashboards with parameters and adhoc queries and their results easilly.
@@ -48,6 +49,7 @@ Using web browser reporting tools may offer the ability to easily share the resu
 
 ## Permissions
 Access control is a feature that allows the administrator of the tool the control the permissions of the users on a given report.
+
 * [Tableau](www.tableau.com) has a permissions system embed.
 * [Superset](https://github.com/apache/incubator-superset) contains a customizable permission system.
 * In [Blazer](https://github.com/ankane/blazer) users can create queries that cannot be edited by other users.
@@ -81,6 +83,7 @@ I would recomend each of the reporting tools analysed for:
 # To be continued
 
 Evaluate features that I would like to see in such systems:
+
 * Monitoring and Alerting
     - Integration with metrics systems or own alert system.
 * Ability to comment on data
