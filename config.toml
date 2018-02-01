@@ -22,7 +22,7 @@ enableRobotsTXT = true
 [params]
 author = "Pedro Carmona"
 intro = "Software Engineer"
-description = "Working at @Goboony<br><br>Previously:<br>Software Engineer @BidMath (2015-2017)<br><br>Programmer Analyst I @FIS (2014-2015)<br>Web developer @Whitesmith (2013)"
+description = "Working at <a href=\"https://goboony.com/\">@Goboony</a><br><br>Previously:<br>Software Engineer @BidMath (2015-2017)<br>Programmer Analyst I @FIS (2014-2015)<br>Web developer @Whitesmith (2013)"
 authorImage = "picture.jpeg"
 dateFormat = "Jan 2, 2006"
 
